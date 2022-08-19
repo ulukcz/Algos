@@ -34,7 +34,7 @@ public class TaskOne {
         return null;
     }
 
-    // ArrayList O(nlogn)
+    // Arrays Sort O(nlogn)
     public static boolean ifDuplicatesSort(int[] array) {
         Arrays.sort(array);
         int num = array[0];
